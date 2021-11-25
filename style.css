@@ -14,19 +14,24 @@ body{
 /* inizio modulo
    image-container ha al suo interno le caselle della percentuale di sconto, della "Sostenibilità", del cuore e l'immagine che cambia con hover. */
 
+.module{
+    margin-top: 30px;
+        margin-left: 10px;
+}
+
+.top-row .module{
+    display: inline-block;
+}
+
+.bottom-row .module{
+    display: inline-block;
+}
 .image-container{
     width: 256px;
     height: 370px;
     margin-bottom: 10px;
     position: relative;
-    background-image: url(../html-css-boolando/img/1.webp);
-    background-size: contain;
-}
-
-.image-container:hover{
-    background-image: url(../html-css-boolando/img/1b.webp);
-    position: relative;
-}
+    }
 
 .discount{
     
@@ -58,6 +63,28 @@ body{
     position: absolute;
     bottom: 10px;
     left: 35px;
+    display: inline-block;
+
+    /* aspetto e posizione del testo */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+
+}
+
+.sustain#no-discount{
+
+    /* aspetto e posizione della casella */
+    background-color: #028759;
+    height: 15px;
+    width: 60px;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
     display: inline-block;
 
     /* aspetto e posizione del testo */
@@ -128,3 +155,90 @@ body{
 }
 
 /* fine della seconda parte del modulo, text-container. */
+
+
+
+
+
+/* inizio primo modulo, in alto a sinistra */
+
+#primo-modello-image{
+    background-image: url(../html-css-boolando/img/1.webp);
+    background-size: contain;
+}
+
+#primo-modello-image:hover{
+    background-image: url(../html-css-boolando/img/1b.webp);
+    position: relative; }
+
+/*fine primo modulo, in alto a sinistra */
+
+
+/* inizio secondo modulo, centrale in alto */
+
+#secondo-modello-image{
+    background-image: url(../html-css-boolando/img/2.webp);
+    background-size: contain;
+}
+
+#secondo-modello-image:hover{
+    background-image: url(../html-css-boolando/img/2b.webp);
+    background-size: contain;
+}
+
+/* fine del secondo modulo, centrale in alto */
+
+/* inizio terzo modulo, in alto a destra */
+#terzo-modello-image{
+    background-image: url(../html-css-boolando/img/3.webp);
+    background-size: contain;
+}
+
+#terzo-modello-image:hover{
+    background-image: url(../html-css-boolando/img/3b.webp);
+    background-size: contain;
+}
+
+/* fine terzo modulo, in alto a destra */
+
+/*inizio quarto modulo, in basso a sinistra */
+
+#quarto-modello-image{
+    background-image: url(../html-css-boolando/img/4.webp);
+    background-size: contain;
+}
+
+#quarto-modello-image:hover{
+    background-image: url(../html-css-boolando/img/4b.webp);
+    background-size: contain;
+}
+
+/*fine quarto modulo, in basso a sinistra */
+
+/* inizio quinto modulo, centrale in basso */
+
+#quinto-modello-image{
+    background-image: url(../html-css-boolando/img/5.webp);
+    background-size: contain;
+}
+
+#quinto-modello-image:hover{
+    background-image: url(../html-css-boolando/img/5b.webp);
+    background-size: contain;
+}
+
+/* fine quinto modulo, centrale in basso */
+
+/* inizio sesto modulo, in basso a destra */
+
+#sesto-modello-image{
+    background-image: url(../html-css-boolando/img/6.webp);
+    background-size: contain;
+}
+
+#sesto-modello-image:hover{
+    background-image: url(../html-css-boolando/img/6b.webp);
+    background-size: contain;
+}
+
+/* fine sesto modulo, in basso a destra */
