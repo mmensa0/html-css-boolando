@@ -163,12 +163,12 @@ body{
 /* inizio primo modulo, in alto a sinistra */
 
 #primo-modello-image{
-    background-image: url(../html-css-boolando/img/1.webp);
+    background-image: url(../img/1.webp);
     background-size: contain;
 }
 
 #primo-modello-image:hover{
-    background-image: url(../html-css-boolando/img/1b.webp);
+    background-image: url(../img/1b.webp);
     position: relative; }
 
 /*fine primo modulo, in alto a sinistra */
@@ -177,12 +177,12 @@ body{
 /* inizio secondo modulo, centrale in alto */
 
 #secondo-modello-image{
-    background-image: url(../html-css-boolando/img/2.webp);
+    background-image: url(../img/2.webp);
     background-size: contain;
 }
 
 #secondo-modello-image:hover{
-    background-image: url(../html-css-boolando/img/2b.webp);
+    background-image: url(../img/2b.webp);
     background-size: contain;
 }
 
@@ -190,12 +190,12 @@ body{
 
 /* inizio terzo modulo, in alto a destra */
 #terzo-modello-image{
-    background-image: url(../html-css-boolando/img/3.webp);
+    background-image: url(../img/3.webp);
     background-size: contain;
 }
 
 #terzo-modello-image:hover{
-    background-image: url(../html-css-boolando/img/3b.webp);
+    background-image: url(../img/3b.webp);
     background-size: contain;
 }
 
@@ -204,12 +204,12 @@ body{
 /*inizio quarto modulo, in basso a sinistra */
 
 #quarto-modello-image{
-    background-image: url(../html-css-boolando/img/4.webp);
+    background-image: url(../img/4.webp);
     background-size: contain;
 }
 
 #quarto-modello-image:hover{
-    background-image: url(../html-css-boolando/img/4b.webp);
+    background-image: url(../img/4b.webp);
     background-size: contain;
 }
 
@@ -218,12 +218,12 @@ body{
 /* inizio quinto modulo, centrale in basso */
 
 #quinto-modello-image{
-    background-image: url(../html-css-boolando/img/5.webp);
+    background-image: url(../img/5.webp);
     background-size: contain;
 }
 
 #quinto-modello-image:hover{
-    background-image: url(../html-css-boolando/img/5b.webp);
+    background-image: url(../img/5b.webp);
     background-size: contain;
 }
 
@@ -232,12 +232,12 @@ body{
 /* inizio sesto modulo, in basso a destra */
 
 #sesto-modello-image{
-    background-image: url(../html-css-boolando/img/6.webp);
+    background-image: url(../img/6.webp);
     background-size: contain;
 }
 
 #sesto-modello-image:hover{
-    background-image: url(../html-css-boolando/img/6b.webp);
+    background-image: url(../img/6b.webp);
     background-size: contain;
 }
 
